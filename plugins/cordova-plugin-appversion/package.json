@@ -1,0 +1,29 @@
+{
+  "name": "cordova-plugin-appversion",
+  "version": "1.0.0",
+  "description": "Access the native app version & build number in JavaScript",
+  "cordova": {
+    "id": "cordova-plugin-appversion",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Rareloop/cordova-plugin-app-version.git"
+  },
+  "keywords": [
+    "cordova",
+    "appversion",
+    "ecosystem:cordova",
+    "cordova-ios",
+    "cordova-android"
+  ],
+  "author": "Rareloop (http://rareloop.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Rareloop/cordova-plugin-app-version/issues"
+  },
+  "homepage": "https://github.com/Rareloop/cordova-plugin-app-version"
+}
