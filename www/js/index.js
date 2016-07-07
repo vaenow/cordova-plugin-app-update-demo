@@ -37,14 +37,14 @@ function addCheckAppUpdateEvent() {
 }
 
 function checkAppUpdate() {
-    var updateUrl = "https://github.com/vaenow/cordova-plugin-app-update-demo/remote_server_apk/version.xml";
+    var updateUrl = "https://raw.githubusercontent.com/vaenow/cordova-plugin-app-update-demo/master/remote_server_apk/version.xml";
     window.AppUpdate.checkAppUpdate(onSuccess, onFail, updateUrl);
     
     var me = this;
     function onFail() {console.log('fail', arguments);}
     function onSuccess() {
         console.log('success', arguments);
-        me.innerHTML+="<br/>up-to-date";
+        me.innerHTML+="<br/>request-completed";
     }
 }
 
