@@ -1,5 +1,5 @@
 # cordova-plugin-app-update-demo
-A demo for Cordova plugin: cordova-plugin-app-update
+A demo for Cordova plugin: [cordova-plugin-app-update](https://github.com/vaenow/cordova-plugin-app-update)
 
 # How to use
 
