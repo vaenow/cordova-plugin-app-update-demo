@@ -1,5 +1,5 @@
 <update>
     <version>401018</version>
     <name>apk_name</name>
-    <url>http://192.168.0.1/android-debug-401018.apk</url>
+    <url>https://raw.githubusercontent.com/vaenow/cordova-plugin-app-update-demo/master/remote_server_apk/android-debug-302048.apk</url>
 </update>
