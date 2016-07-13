@@ -24,20 +24,18 @@ var app = {
         document.addEventListener('deviceready', this.onDeviceReady, false);
     },
     onDeviceReady: function() {
-        addCheckAppUpdateEvent();
+        addCheckAppUpdateInfo();
     }
 };
 
-function addCheckAppUpdateEvent() {
-    var el = document.getElementById('check');
-    el.addEventListener("click", checkAppUpdate);
-
-    var version = document.getElementById('version');
-    version.innerHTML = AppVersion.build;
+function addCheckAppUpdateInfo() {
+    $('check').addEventListener("click", checkAppUpdate);
+    $('version').innerHTML = AppVersion.build;
+    $('updateurl').value = "https://raw.githubusercontent.com/vaenow/cordova-plugin-app-update-demo/master/remote_server_apk/version.xml";
 }
 
 function checkAppUpdate() {
-    var updateUrl = "https://raw.githubusercontent.com/vaenow/cordova-plugin-app-update-demo/master/remote_server_apk/version.xml";
+    var updateUrl = $('updateurl').value;
     window.AppUpdate.checkAppUpdate(onSuccess, onFail, updateUrl);
     
     var me = this;
@@ -46,6 +44,10 @@ function checkAppUpdate() {
         console.log('success', arguments);
         me.innerHTML+="<br/>request-completed";
     }
+}
+
+function $(id) {
+    return document.getElementById(id);
 }
 
 
