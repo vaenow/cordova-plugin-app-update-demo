@@ -1,6 +1,11 @@
 # cordova-plugin-app-update-demo
 A demo for Cordova plugin: [cordova-plugin-app-update](https://github.com/vaenow/cordova-plugin-app-update)
 
+![Alt Text](https://raw.githubusercontent.com/vaenow/cordova-plugin-app-update-demo/master/imgs/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-07-13%20%E4%B8%8B%E5%8D%8811.49.54.png)
+![Alt Text](https://raw.githubusercontent.com/vaenow/cordova-plugin-app-update-demo/master/imgs/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-07-13%20%E4%B8%8B%E5%8D%8811.51.48.png)
+![Alt Text](https://raw.githubusercontent.com/vaenow/cordova-plugin-app-update-demo/master/imgs/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202016-07-14%20%E4%B8%8A%E5%8D%8812.15.44.png)
+
+
 # How to use
 
 * clone it
