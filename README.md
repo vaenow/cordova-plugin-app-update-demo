@@ -28,7 +28,7 @@ Just download the apk and try it immediately!
 
 * Go to the generated apk dir [remote_server_apk](https://github.com/vaenow/cordova-plugin-app-update-demo/tree/master/remote_server_apk)
 
-* install `android-debug-201038.apk`
+* install `android-debug-18.apk`
 
 * enjoy yourself
 
