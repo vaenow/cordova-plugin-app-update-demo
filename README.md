@@ -24,13 +24,18 @@ cordova build
 
 
 # I don't wanna do more?
-Just download the apk and try it immediately!
 
-* Go to the generated apk dir [remote_server_apk](https://github.com/vaenow/cordova-plugin-app-update-demo/tree/master/remote_server_apk)
+使用自己的`UpdateUrl`,亲自尝试更新！
 
-* install `android-debug-18.apk`
+* Go to the generated [remote_server_apk](https://github.com/vaenow/cordova-plugin-app-update-demo/tree/master/remote_server_apk)
 
-* enjoy yourself
+* Install `android-debug-18.apk`
+
+* Type the customized `UpdateUrl` yourself
+
+* Click `CHECK APP UPDATE` to try it immediately!
+
+* enjoy :smile:
 
 # :snowflake: :beers:
 
