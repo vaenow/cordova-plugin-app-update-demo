@@ -1,3 +1,6 @@
+
+[![NPM](https://nodei.co/npm/cordova-plugin-app-update-demo.png?compact=true)](https://nodei.co/npm/cordova-plugin-app-update-demo/)
+
 # cordova-plugin-app-update-demo
 A demo for Cordova plugin: [cordova-plugin-app-update](https://github.com/vaenow/cordova-plugin-app-update)
 
