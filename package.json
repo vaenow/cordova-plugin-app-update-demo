@@ -1,0 +1,19 @@
+{
+  "name": "cordova-plugin-app-update-demo",
+  "version": "1.0.1",
+  "description": "A demo for Cordova plugin: [cordova-plugin-app-update](https://github.com/vaenow/cordova-plugin-app-update)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vaenow/cordova-plugin-app-update-demo.git"
+  },
+  "author": "LuoWen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vaenow/cordova-plugin-app-update-demo/issues"
+  },
+  "homepage": "https://github.com/vaenow/cordova-plugin-app-update-demo#readme"
+}

@@ -37,11 +37,11 @@ function addCheckAppUpdateInfo() {
 function checkAppUpdate() {
     var updateUrl = $('updateurl').value;
     window.AppUpdate.checkAppUpdate(onSuccess, onFail, updateUrl);
-    
+
     var me = this;
-    function onFail() {console.log('fail', arguments);}
+    function onFail() {console.log('fail', JSON.stringify(arguments), arguments);}
     function onSuccess() {
-        console.log('success', arguments);
+        console.log('success', JSON.stringify(arguments), arguments);
         me.innerHTML+="<br/>request-completed";
     }
 }

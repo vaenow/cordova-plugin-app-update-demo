@@ -20,7 +20,7 @@ module.exports.metadata =
 {
     "cordova-plugin-whitelist": "1.2.2",
     "cordova-plugin-appversion": "1.0.0",
-    "cordova-plugin-app-update": "1.2.9"
+    "cordova-plugin-app-update": "1.3.3"
 };
 // BOTTOM OF METADATA
 });

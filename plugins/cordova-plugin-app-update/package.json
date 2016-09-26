@@ -1,0 +1,42 @@
+{
+  "name": "cordova-plugin-app-update",
+  "version": "1.3.6",
+  "description": "Cordova App Update",
+  "cordova": {
+    "id": "cordova-plugin-app-update",
+    "platforms": [
+      "android"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vaenow/cordova-plugin-app-update.git"
+  },
+  "keywords": [
+    "cordova",
+    "app",
+    "auto",
+    "update",
+    "updater",
+    "dynamic",
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "author": "vaenow",
+  "license": "MIT",
+  "scripts": {
+    "test": "npm run jshint",
+    "jshint": "node node_modules/jshint/bin/jshint www && node node_modules/jshint/bin/jshint src"
+  },
+  "bugs": {
+    "url": "https://github.com/vaenow/cordova-plugin-app-update/issues"
+  },
+  "scripts": {
+    "test": "npm run jshint",
+    "jshint": "node node_modules/jshint/bin/jshint www && node node_modules/jshint/bin/jshint src && node node_modules/jshint/bin/jshint tests"
+  },
+  "homepage": "https://github.com/vaenow/cordova-plugin-app-update#readme",
+  "devDependencies": {
+    "jshint": "^2.6.0"
+  }
+}
